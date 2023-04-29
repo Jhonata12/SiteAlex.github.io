@@ -1,0 +1,280 @@
+
+.te{
+    color: yellow;
+    margin-right: 650px;
+    margin-top: -60px;
+    margin-left: 100px;
+    
+
+}
+
+.te2{
+    color: white;
+    scale: 60%;
+    margin-top: 150px;
+    margin-right: 20px;
+    text-align: center,justify;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+
+    width: 1200px;
+ margin-left: 70px;
+ margin-right: auto;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  }
+
+  .img{
+    opacity: 60%;
+    border-radius: 200px;
+  }
+
+  .text01{
+    text-align: left;
+    
+  }
+
+ 
+
+.img2{
+    width: 500px;
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: -90px 10px 10px 0;
+    max-width: 500px;
+    
+
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+    color: yellow;
+    margin-left: 680px;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.tex{
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.t{
+    margin-right: 300px;
+    text-align: justify;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+#figcaption{
+    color: white;
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    
+    font-size: 12px;
+    
+    }
+
+
+.box1{
+    
+    background-color: yellow;
+    padding: 150px;
+    margin-top: -420px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 100px;
+
+    
+    }
+
+.box2{
+    
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 50px;
+
+        
+        }
+
+.img3{
+    text-align: center;
+}
+
+
+
+
+
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #d1c44f;
+  background: linear-gradient(90deg, rgb(228, 230, 129) 0%, rgb(209, 200, 79) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(209, 200, 79, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #fffb00;
+    box-shadow: 0 0 60px rgba(229, 255, 0, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #ffe600;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+    
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
+
+  .img4{
+    scale: 80%;
+    text-align: center;
+    margin-top: -200px;
+  }
+
+
+.texto1{
+    text-align: center;
+   margin-top: -10px;
+   scale: 200%;
+}
+
+.texto2{
+    text-align: center, justify;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    scale: 100%;
+
+    
+}
+
+.icons{
+    margin-top: 20px;
+    margin-left: 400px ;
+
+}
+
+.icons2{
+    margin-top: -53px;
+    margin-left: 700px;
+  
+}
+
+.preco{
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -50px;
+  margin-bottom: -470px;
+}
+
+.img8{
+  width: 300px;
+  margin-left: 400px;
+  margin-top: -500px;
+  margin-bottom: 18px;
+}
