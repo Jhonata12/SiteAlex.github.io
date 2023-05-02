@@ -6,13 +6,319 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 01</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <style>
-       
+
+      
+.te{
+  width: 1000px;
+  margin-right: 90px;
+  margin-top: -300px;
+ 
+}
+
+.te2{
+    color: rgb(0, 0, 0);
+    scale: 60%;
+    margin-top: 150px;
+    margin-right: 20px;
+    text-align: center,justify;
+    scale: 80%;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+
+    width: 1200px;
+ margin-left: 70px;
+ margin-right: auto;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  }
+
+  .img{
+    opacity: 34%;
+    border-radius: 200px;
+    max-width: 100%;
+    
+    
+  }
+
+  .text01{
+    text-align: left;
+    
+  }
+
+ 
+
+.img2{
+    width: 550px;
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: -90px 10px 10px 0;
+    margin-left: 150px;
+    max-width: 100%;
+
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+  width: 300px;
+    color: rgb(255, 214, 30);
+    margin-left: 850px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scale: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.tex{
+    margin-left: -50px;
+    margin-right: -300px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    scale: 130%;
+}
+
+.t{
+    margin-right: -350px;
+    margin-left: 550px;
+    text-align: justify;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+#figcaption{
+    color: white;
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    
+    font-size: 12px;
+    
+    }
+
+
+.box1{
+    
+    background-color: rgb(255, 214, 30);
+    padding: 150px;
+    margin-top: -420px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 100px;
+
+    
+    }
+
+.box2{
+    
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 50px;
+        }
+
+.img3{
+    text-align: center;
+    max-width: 100%;
+}
+
+
+
+
+
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #d1c44f;
+  background: linear-gradient(90deg, rgb(228, 230, 129) 0%, rgb(209, 200, 79) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(209, 200, 79, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    margin-left: 950px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #fffb00;
+    box-shadow: 0 0 60px rgba(229, 255, 0, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #ffe600;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+    
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
+
+  .img4{
+    scale: 80%;
+    text-align: center;
+    margin-top: -200px;
+    max-width: 100%;
+  }
+
+
+.texto1{
+    text-align: center;
+   margin-top: -10px;
+   scale: 200%;
+}
+
+.texto2{
+    text-align: center, justify;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    scale: 100%;
+
+}
+
+.icons{
+    margin-top: 20px;
+    margin-left: 400px ;
+
+}
+
+.icons2{
+    margin-top: -53px;
+    margin-left: 700px;
+  
+}
+
+.preco{
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -50px;
+  margin-bottom: -470px;
+}
+
+.img8{
+  width: 300px;
+  margin-left: 400px;
+  margin-top: -500px;
+  margin-bottom: 18px;
+  max-width: 100%;
+  
+}
+
+
+.box3{
+    
+  background-color: rgb(255, 214, 30);
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 90px;
+  scale: 70%;
+  
+  }
 
 
     </style>
+
+  
 
 </head>
 
@@ -46,15 +352,20 @@
 
 
 
-
-    <div class="text">
-    <h1>Quem é Alex Maciel?</h1>
-    </div>
+<figure class="pt2">
+    <div class="text"><figcaption>
+    <h1>Quem é Alex Maciel?</h1></figcaptio>
+          </div>
+          <div>
+            <p class="t2">
+              Quem é Alex Maciel?
+            </p>
+          </div>
 
 
     <div class="tex">
         <div><img class="img2" src="FOTO EBOOK.png" ></div>
-   <div>
+   <div><figcaption>
         <p class="t">➢Sou um apaixonado por Matemática e Física e principalmente pelo ensino das ciências.</p>
 
         <p class="t">➢Há mais de 20 anos mergulhei na experiência maravilhosa de dar aulas.</p>
@@ -64,8 +375,9 @@
         <p class="t">➢Criei o Método 80/20 de aprendizagem para que os alunos pudessem aprender MAIS, MELHOR e em MENOS tempo. Afinal, 80% dos seus resultados advém de 20% de esforço no que mais importa.</p>
    
         <p class="t">➢Posso ser o seu MENTOR nessa jornada da Aprendizagem. Experiência, Entusiasmo, Disciplina e Dedicação não faltam para quem é apaixonado por educação.</p>
-      </div>
+   </figcaption></div>
     </div>
+    </figure>
     
 
     
