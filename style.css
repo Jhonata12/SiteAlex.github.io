@@ -1,19 +1,19 @@
 
-.te{
-    color: yellow;
-    margin-right: 650px;
-    margin-top: -60px;
-    margin-left: 100px;
-    
 
+.te{
+  width: 1000px;
+  margin-right: 90px;
+  margin-top: -300px;
+ 
 }
 
 .te2{
-    color: white;
+    color: rgb(0, 0, 0);
     scale: 60%;
     margin-top: 150px;
     margin-right: 20px;
     text-align: center,justify;
+    scale: 80%;
 }
 
 
@@ -36,8 +36,11 @@
   }
 
   .img{
-    opacity: 60%;
+    opacity: 34%;
     border-radius: 200px;
+    max-width: 100%;
+    
+    
   }
 
   .text01{
@@ -48,13 +51,13 @@
  
 
 .img2{
-    width: 500px;
+    width: 550px;
     float: left;
     border: transparent thin solid;
     padding: 5px;
     margin: -90px 10px 10px 0;
-    max-width: 500px;
-    
+    margin-left: 150px;
+    max-width: 100%;
 
 }
 
@@ -63,21 +66,29 @@ body{
 }
 
 .text{
-    color: yellow;
-    margin-left: 680px;
-    margin-right: auto;
+  width: 300px;
+    color: rgb(255, 214, 30);
+    margin-left: 850px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    scale: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+
+
 .tex{
-    margin-left: 100px;
+    margin-left: -50px;
+    margin-right: -300px;
+    margin-top: 30px;
     text-align: center;
     color: white;
+    scale: 130%;
 }
 
 .t{
-    margin-right: 300px;
+    margin-right: -350px;
+    margin-left: 550px;
     text-align: justify;
 }
 
@@ -109,7 +120,7 @@ body{
 
 .box1{
     
-    background-color: yellow;
+    background-color: rgb(255, 214, 30);
     padding: 150px;
     margin-top: -420px;
     margin-right: 0;
@@ -126,12 +137,11 @@ body{
         margin-left: 0;
         margin-right: 0;
         border-radius: 50px;
-
-        
         }
 
 .img3{
     text-align: center;
+    max-width: 100%;
 }
 
 
@@ -169,6 +179,7 @@ html, body {
     outline: none;
     position: relative;
     padding: 10px;
+    margin-left: 950px;
     }
   
   button::before {
@@ -233,6 +244,7 @@ html, body {
     scale: 80%;
     text-align: center;
     margin-top: -200px;
+    max-width: 100%;
   }
 
 
@@ -249,7 +261,6 @@ html, body {
     margin-right: 20px;
     scale: 100%;
 
-    
 }
 
 .icons{
@@ -277,4 +288,19 @@ html, body {
   margin-left: 400px;
   margin-top: -500px;
   margin-bottom: 18px;
+  max-width: 100%;
+  
 }
+
+
+.box3{
+    
+  background-color: rgb(255, 214, 30);
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 90px;
+  scale: 70%;
+  
+  }
+
